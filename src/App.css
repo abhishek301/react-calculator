@@ -1,0 +1,20 @@
+.App {
+  /* text-align: center; */
+}
+
+.buttonBox {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+.outputScreen {
+  text-align: right;
+background-color: rgb(221, 255, 255);
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 1rem;
+border: 1px solid black;
+}
